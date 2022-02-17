@@ -1,0 +1,15 @@
+* {
+box-sizing: border-box;
+}
+.box {
+    background-color: #000F;
+    color: white;
+    height: 30%;
+    overflow: auto;
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+    border: 10px solid yellow;
+    margin: 0px;
+    margin-right: -4px;
+}
