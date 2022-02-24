@@ -12,18 +12,26 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-<h1> Галерея Настиных работ </h1>
-<p>     Моя дорогая <em>Настенька</em> является художницей. Здесь представлены некоторые из её работ, чтобы вы <strong>тоже</strong> могли ими насладиться</p>
-<p> площадь каждой 1200 <sub> см </sub> <sup> 2 </sup> </p>
-
-<h3> Список работ </h3>
+<div class="workbanch">
+<h1 class="header"> Галерея Настиных работ </h1>
+<p class="main">     Моя дорогая <strong>Настенька</strong> является художницей. Здесь представлены некоторые из её работ, чтобы вы <strong>тоже</strong> могли ими насладиться</p>
+<h3 class="header"> Список работ </h3>
 <ul>
-    <li> первая </li>
-    <img src="img/January.jpg" alt="picture is loading ...">
-    <a href="january.html">Открыть</a>
-    <li> Вторая </li>
-    <img src="img/february.jpg" alt="picture is loading ...">
-    <li> следующая </li>
+    <div class="pictureGallery">
+        <div class="pictureLine">
+            <div class="pictureBlock">
+                <p>January</p>
+                <img src="img/January.jpg" width="70%" alt="the picture is loading ...">
+                <button class="linkBTN"> <a href="january.html">Watch it</a> </button>
+            </div>
+            <div class="pictureBlock">
+                <p>February</p>
+                <img src="img/february.jpg" width="70%" alt="the picture is loading ...">
+                <button class="linkBTN"> <a href="february.html">Watch it</a> </button>
+            </div>
+        </div>
+    </div>
 </ul>
+</div>
 </body>
 </html>
