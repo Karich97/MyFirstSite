@@ -32,13 +32,21 @@ box-sizing: border-box;
         border: 2px solid red;
     }
     .pictureLine{
+        border: 2px solid red;
         display: inline-block;
-        margin: 12%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        overflow: auto;
+        text-align: center;
     }
     .pictureBlock{
+        margin: -3px;
         display: inline-block;
         border: 1px solid red;
         width: 25%;
+        vertical-align: top;
     }
     .picture, .donateForm {
         display: inline-block;
